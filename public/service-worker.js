@@ -2,12 +2,19 @@ const FILES_TO_CACHE = [
     '/',
     '/index.html',
     '/styles.css',
-    '/dist/app.bundle.js',
-    'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css',
-    'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+    '/dist/manifest.json',
+    '/dist/bundle.js',
+    '/dist/icon_72x72.png',
+    '/dist/icon_96x96.png',
+    '/dist/icon_128x128.png',
+    '/dist/icon_144x144.png',
+    '/dist/icon_152x152.png',
+    '/dist/icon_192x192.png',
+    '/dist/icon_384x384.png',
+    '/dist/icon_512x512.png',
   ];
   
-  const PRECACHE = 'precache-v4';
+  const PRECACHE = 'precache-v5';
   const RUNTIME = 'runtime';
   
   self.addEventListener('install', (event) => {
