@@ -9,7 +9,6 @@
 Matt Wieciech  
 [wheaties5588](https://github.com/wheaties5588)
 
-![](https://img.shields.io/badge/license-MIT%20License-blue?style=flat-square)
 ## Description
 This app utilizes mongoDB, express and indexDB to allow the user to track budget information both online and offline. The user can download the application and use it while not connected to the database, and when reconnecting the information will be automatically uploaded to the database.
 ## Table of Contents
