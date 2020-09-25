@@ -2,8 +2,10 @@ const FILES_TO_CACHE = [
     '/',
     '/index.html',
     '/styles.css',
+    '/db.js',
     '/dist/manifest.json',
     '/dist/bundle.js',
+    // '/index.js',
     '/dist/icon_72x72.png',
     '/dist/icon_96x96.png',
     '/dist/icon_128x128.png',
@@ -65,3 +67,4 @@ const FILES_TO_CACHE = [
       );
     }
   });
+  
